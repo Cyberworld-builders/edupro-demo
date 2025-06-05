@@ -8,13 +8,6 @@ import { Badge } from "@/components/ui/badge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Star } from "lucide-react";
 import coursesData from "@/data/courses.json";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: 'All Courses | EduPro',
-  description: 'Explore our comprehensive collection of online courses in web development, data science, digital marketing, design, and more. Expert-led courses with certificates.',
-};
-
 export default function Courses() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [sortBy, setSortBy] = useState("popular");
