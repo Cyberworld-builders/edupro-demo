@@ -1,4 +1,4 @@
-import { Link } from "wouter";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -44,7 +44,7 @@ export default function Footer() {
               <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Digital Marketing</a></li>
               <li><a href="#" className="text-slate-300 hover:text-white transition-colors">UI/UX Design</a></li>
               <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Business Analytics</a></li>
-              <li><Link href="/courses"><span className="text-slate-300 hover:text-white transition-colors cursor-pointer">All Courses</span></Link></li>
+              <li><Link href="/courses" className="text-slate-300 hover:text-white transition-colors">All Courses</Link></li>
             </ul>
           </div>
 
@@ -52,12 +52,12 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-3">
-              <li><Link href="/about"><span className="text-slate-300 hover:text-white transition-colors cursor-pointer">About Us</span></Link></li>
+              <li><Link href="/about" className="text-slate-300 hover:text-white transition-colors">About Us</Link></li>
               <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Careers</a></li>
               <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Press</a></li>
               <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Partnerships</a></li>
               <li><a href="#" className="text-slate-300 hover:text-white transition-colors">Blog</a></li>
-              <li><Link href="/contact"><span className="text-slate-300 hover:text-white transition-colors cursor-pointer">Contact</span></Link></li>
+              <li><Link href="/contact" className="text-slate-300 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
 
