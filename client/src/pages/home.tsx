@@ -46,8 +46,12 @@ export default function Home() {
                     Explore Courses
                   </Button>
                 </Link>
-                <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-primary-600 text-lg px-8 py-4 h-auto">
-                  Watch Demo
+                <Button 
+                  variant="outline" 
+                  className="border-2 border-white text-white hover:bg-white hover:text-primary-600 text-lg px-8 py-4 h-auto"
+                  onClick={() => document.getElementById('features-section')?.scrollIntoView({ behavior: 'smooth' })}
+                >
+                  Learn More
                 </Button>
               </div>
             </div>
@@ -87,7 +91,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-slate-50">
+      <section id="features-section" className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Why Choose EduPro?</h2>
