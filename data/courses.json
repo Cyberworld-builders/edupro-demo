@@ -1,0 +1,379 @@
+{
+  "courses": [
+    {
+      "id": "web-development",
+      "title": "Full Stack Web Development",
+      "category": "Development",
+      "price": 129,
+      "originalPrice": 199,
+      "rating": 4.9,
+      "reviews": 245,
+      "students": 3247,
+      "duration": "12 weeks",
+      "level": "Beginner to Advanced",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      "description": "Master modern web development with this comprehensive course covering HTML, CSS, JavaScript, React, Node.js, and MongoDB. Build real-world projects and deploy them to production.",
+      "shortDescription": "Master modern web development with React, Node.js, and MongoDB in this comprehensive bootcamp.",
+      "instructor": {
+        "name": "David Martinez",
+        "title": "Senior Full Stack Developer at Google",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+        "bio": "David is a senior full stack developer with over 8 years of experience at top tech companies. He has built scalable applications used by millions of users and is passionate about teaching modern web development best practices."
+      },
+      "highlights": [
+        "Build 5 real-world projects including an e-commerce site",
+        "Learn React, Node.js, Express, and MongoDB",
+        "Master modern JavaScript ES6+ features",
+        "Deploy applications to cloud platforms",
+        "Get job-ready with portfolio projects"
+      ],
+      "curriculum": [
+        {
+          "title": "HTML & CSS Fundamentals",
+          "lessons": 12,
+          "duration": "3 hours"
+        },
+        {
+          "title": "JavaScript Essentials",
+          "lessons": 18,
+          "duration": "5 hours"
+        },
+        {
+          "title": "React Development",
+          "lessons": 24,
+          "duration": "7 hours"
+        },
+        {
+          "title": "Backend with Node.js",
+          "lessons": 20,
+          "duration": "6 hours"
+        },
+        {
+          "title": "Database Design with MongoDB",
+          "lessons": 15,
+          "duration": "4 hours"
+        },
+        {
+          "title": "Deployment & DevOps",
+          "lessons": 10,
+          "duration": "3 hours"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "data-science",
+      "title": "Data Science & Machine Learning",
+      "category": "Data Science",
+      "price": 149,
+      "originalPrice": 229,
+      "rating": 4.8,
+      "reviews": 312,
+      "students": 2891,
+      "duration": "16 weeks",
+      "level": "Intermediate",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      "description": "Learn Python programming, statistics, data visualization, and machine learning algorithms. Work with real datasets and build predictive models that solve business problems.",
+      "shortDescription": "Learn Python, statistics, and ML algorithms to become a data science professional.",
+      "instructor": {
+        "name": "Dr. Sarah Kim",
+        "title": "Lead Data Scientist at Netflix",
+        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b639?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+        "bio": "Dr. Kim holds a PhD in Statistics from Stanford and has led data science teams at Netflix and Uber. She specializes in machine learning applications and has published research in top-tier journals."
+      },
+      "highlights": [
+        "Master Python for data analysis with pandas and NumPy",
+        "Learn machine learning algorithms and implementation",
+        "Create stunning visualizations with matplotlib and seaborn",
+        "Work with real-world datasets from various industries",
+        "Build and deploy ML models to production"
+      ],
+      "curriculum": [
+        {
+          "title": "Python Programming Foundations",
+          "lessons": 15,
+          "duration": "4 hours"
+        },
+        {
+          "title": "Data Analysis with Pandas",
+          "lessons": 20,
+          "duration": "6 hours"
+        },
+        {
+          "title": "Data Visualization",
+          "lessons": 12,
+          "duration": "3 hours"
+        },
+        {
+          "title": "Statistics and Probability",
+          "lessons": 18,
+          "duration": "5 hours"
+        },
+        {
+          "title": "Machine Learning Algorithms",
+          "lessons": 25,
+          "duration": "8 hours"
+        },
+        {
+          "title": "Deep Learning Basics",
+          "lessons": 15,
+          "duration": "5 hours"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "digital-marketing",
+      "title": "Digital Marketing Mastery",
+      "category": "Marketing",
+      "price": 99,
+      "originalPrice": 149,
+      "rating": 4.7,
+      "reviews": 189,
+      "students": 4156,
+      "duration": "10 weeks",
+      "level": "Beginner",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      "description": "Master digital marketing strategies including SEO, social media marketing, content marketing, email marketing, and paid advertising across all major platforms.",
+      "shortDescription": "Master SEO, social media, content marketing, and analytics for digital success.",
+      "instructor": {
+        "name": "Jennifer Thompson",
+        "title": "Digital Marketing Director at HubSpot",
+        "image": "https://images.unsplash.com/photo-1559085449-638b84cb1b6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+        "bio": "Jennifer has over 10 years of digital marketing experience, having led successful campaigns for Fortune 500 companies. She's a certified Google Ads and Facebook Marketing expert."
+      },
+      "highlights": [
+        "Learn SEO optimization and keyword research",
+        "Master social media marketing across all platforms",
+        "Create effective content marketing strategies",
+        "Set up and optimize Google Ads and Facebook Ads",
+        "Build comprehensive marketing funnels"
+      ],
+      "curriculum": [
+        {
+          "title": "Digital Marketing Fundamentals",
+          "lessons": 10,
+          "duration": "2.5 hours"
+        },
+        {
+          "title": "Search Engine Optimization (SEO)",
+          "lessons": 16,
+          "duration": "4 hours"
+        },
+        {
+          "title": "Social Media Marketing",
+          "lessons": 14,
+          "duration": "3.5 hours"
+        },
+        {
+          "title": "Content Marketing Strategy",
+          "lessons": 12,
+          "duration": "3 hours"
+        },
+        {
+          "title": "Paid Advertising (Google & Facebook)",
+          "lessons": 18,
+          "duration": "4.5 hours"
+        },
+        {
+          "title": "Analytics and Optimization",
+          "lessons": 8,
+          "duration": "2 hours"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "ui-ux-design",
+      "title": "UI/UX Design Fundamentals",
+      "category": "Design",
+      "price": 119,
+      "originalPrice": 179,
+      "rating": 4.9,
+      "reviews": 156,
+      "students": 1876,
+      "duration": "14 weeks",
+      "level": "Beginner to Intermediate",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      "description": "Create stunning user experiences with design thinking principles, modern tools, and industry best practices. Master Figma, user research, and prototyping.",
+      "shortDescription": "Create stunning user experiences with design thinking and modern tools.",
+      "instructor": {
+        "name": "Alex Chen",
+        "title": "Senior UX Designer at Apple",
+        "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+        "bio": "Alex is a senior UX designer at Apple with 7 years of experience designing user interfaces for mobile and web applications. He's passionate about creating accessible and delightful user experiences."
+      },
+      "highlights": [
+        "Master Figma, Sketch, and Adobe XD",
+        "Learn user research and testing methodologies",
+        "Design complete mobile and web applications",
+        "Build professional design portfolios",
+        "Understand design systems and accessibility"
+      ],
+      "curriculum": [
+        {
+          "title": "Design Thinking & User Research",
+          "lessons": 14,
+          "duration": "4 hours"
+        },
+        {
+          "title": "Wireframing & Prototyping",
+          "lessons": 16,
+          "duration": "5 hours"
+        },
+        {
+          "title": "Visual Design Principles",
+          "lessons": 18,
+          "duration": "5 hours"
+        },
+        {
+          "title": "Figma Mastery",
+          "lessons": 12,
+          "duration": "3 hours"
+        },
+        {
+          "title": "Mobile App Design",
+          "lessons": 15,
+          "duration": "4 hours"
+        },
+        {
+          "title": "Portfolio Development",
+          "lessons": 8,
+          "duration": "2 hours"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity Essentials",
+      "category": "Security",
+      "price": 159,
+      "originalPrice": 239,
+      "rating": 4.8,
+      "reviews": 92,
+      "students": 1234,
+      "duration": "18 weeks",
+      "level": "Intermediate to Advanced",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      "description": "Protect systems and data with comprehensive security training covering network security, ethical hacking, incident response, and compliance frameworks.",
+      "shortDescription": "Protect systems and data with comprehensive security training and ethical hacking.",
+      "instructor": {
+        "name": "Michael Rodriguez",
+        "title": "Cybersecurity Consultant & CISSP",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+        "bio": "Michael is a certified cybersecurity expert with 12 years of experience in enterprise security. He holds multiple certifications including CISSP, CEH, and CISM."
+      },
+      "highlights": [
+        "Learn network security and penetration testing",
+        "Master threat detection and incident response",
+        "Understand compliance frameworks (ISO 27001, NIST)",
+        "Practice ethical hacking techniques",
+        "Get prepared for security certifications"
+      ],
+      "curriculum": [
+        {
+          "title": "Cybersecurity Fundamentals",
+          "lessons": 12,
+          "duration": "3 hours"
+        },
+        {
+          "title": "Network Security",
+          "lessons": 20,
+          "duration": "6 hours"
+        },
+        {
+          "title": "Ethical Hacking & Penetration Testing",
+          "lessons": 25,
+          "duration": "8 hours"
+        },
+        {
+          "title": "Incident Response & Forensics",
+          "lessons": 15,
+          "duration": "4 hours"
+        },
+        {
+          "title": "Compliance & Risk Management",
+          "lessons": 10,
+          "duration": "3 hours"
+        },
+        {
+          "title": "Advanced Threat Detection",
+          "lessons": 12,
+          "duration": "4 hours"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "business-analytics",
+      "title": "Business Analytics",
+      "category": "Business",
+      "price": 109,
+      "originalPrice": 169,
+      "rating": 4.6,
+      "reviews": 134,
+      "students": 2156,
+      "duration": "12 weeks",
+      "level": "Beginner to Intermediate",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+      "description": "Make data-driven decisions with advanced analytics skills. Learn Excel, SQL, Tableau, and statistical analysis to drive business growth.",
+      "shortDescription": "Make data-driven decisions with advanced analytics and visualization skills.",
+      "instructor": {
+        "name": "Lisa Wang",
+        "title": "Senior Business Analyst at McKinsey",
+        "image": "https://images.unsplash.com/photo-1494790108755-2616b612b639?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
+        "bio": "Lisa is a senior business analyst at McKinsey & Company with expertise in data visualization and strategic analytics. She has helped Fortune 500 companies optimize their operations through data insights."
+      },
+      "highlights": [
+        "Master Excel for advanced data analysis",
+        "Learn SQL for database querying",
+        "Create compelling dashboards with Tableau",
+        "Understand statistical analysis and KPIs",
+        "Apply analytics to real business scenarios"
+      ],
+      "curriculum": [
+        {
+          "title": "Business Analytics Fundamentals",
+          "lessons": 10,
+          "duration": "3 hours"
+        },
+        {
+          "title": "Advanced Excel & Pivot Tables",
+          "lessons": 15,
+          "duration": "4 hours"
+        },
+        {
+          "title": "SQL for Data Analysis",
+          "lessons": 18,
+          "duration": "5 hours"
+        },
+        {
+          "title": "Data Visualization with Tableau",
+          "lessons": 16,
+          "duration": "4 hours"
+        },
+        {
+          "title": "Statistical Analysis & KPIs",
+          "lessons": 12,
+          "duration": "3 hours"
+        },
+        {
+          "title": "Business Case Studies",
+          "lessons": 8,
+          "duration": "2 hours"
+        }
+      ],
+      "featured": false
+    }
+  ],
+  "categories": [
+    "All",
+    "Development",
+    "Data Science",
+    "Marketing",
+    "Design",
+    "Security",
+    "Business"
+  ]
+}

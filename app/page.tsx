@@ -1,31 +1,17 @@
-import { Link } from "wouter";
+"use client";
+
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, Users, Clock, Award, BookOpen, Zap, Heart, Shield, Target, Globe } from "lucide-react";
-import SEOHead from "@/components/seo-head";
-import { generateStructuredData } from "@/lib/seo";
 import coursesData from "@/data/courses.json";
 
 export default function Home() {
   const featuredCourses = coursesData.courses.filter(course => course.featured);
 
-  const structuredData = generateStructuredData("EducationalOrganization", {
-    name: "EduPro",
-    description: "Premium online education platform offering professional development courses",
-    url: "https://edupro.com",
-    logo: "https://edupro.com/logo.png",
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: "+1-555-123-4567",
-      contactType: "customer service"
-    }
-  });
-
   return (
     <>
-      <SEOHead structuredData={structuredData} />
-      
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 text-white">
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>
